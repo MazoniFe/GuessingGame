@@ -1,3 +1,4 @@
 ﻿  OpenGL Study.cpp
+C:\Users\lipem\source\repos\OpenGL Study\OpenGL Study\OpenGL Study.cpp(11,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\lipem\source\repos\OpenGL Study\OpenGL Study\OpenGL Study.cpp(48,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   OpenGL Study.vcxproj -> C:\Users\lipem\source\repos\OpenGL Study\x64\Debug\OpenGL Study.exe

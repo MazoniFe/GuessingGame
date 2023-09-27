@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <ctime>
 
 using namespace std;
 int main()
@@ -7,11 +8,9 @@ int main()
     const int MAX = 100;
     const int MIN = 0;
 
-    random_device rd;
-    mt19937 gen(rd());
-    uniform_int_distribution<int> dist(MIN, MAX);
+    srand(time(NULL));
+    const int numero_secreto = rand() % 100;
 
-    int numero_secreto = dist(gen);
     int chute;
     int numero_tentativas = 0;
     bool nao_acertou = true;
@@ -20,6 +19,7 @@ int main()
     cout << "**************************************" << endl;
     cout << "* Bem-vindos ao jogo de adivinhacao! *" << endl;
     cout << "**************************************" << endl;
+    cout << "NUMERO SECRETO: " << numero_secreto;
 
     cout << "" << endl;
 
